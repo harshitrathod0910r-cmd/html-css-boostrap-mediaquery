@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        header{
+            /* border: 1px solid; */
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-wrap: wrap;
+
+            .logo{
+                /* border: 1px solid; */
+                width: 20%;
+                height: 50px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding-top: 6px;
+            }
+
+            nav{
+                /* border: 1px solid; */
+                width: 40%;
+                height: 50px;
+                text-align: center;
+                background-color: black;
+                font-size: large;
+                
+                ul{
+                    margin-top: 20px;
+                    li{
+                        list-style: none;
+
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            margin-left: 50px;
+                        
+                           
+                        }
+                    }
+                }
+
+            }
+
+            .s1{
+                /* border: 1px solid; */
+                width: 20%;
+                height: 50px;
+                padding-top: 20px;
+                text-align: center;
+                font-size: large;
+                background-color: black;
+                color: white;
+            }
+
+            .s2{
+                /* border: 1px solid; */
+                width: 20%;
+                height: 50px;
+                text-align: center;
+                background-color: blue;
+                font-size: large;
+                
+
+                                ul{
+                    margin-top: 20px;
+                    li{
+                        list-style: none;
+
+                        a{
+                            text-decoration: none;
+                            color:white;
+                            margin-left: 50px;
+                        
+                           
+                        }
+                    }
+                }
+            }
+            .s3{
+                width: 10%;
+                height: 50px;
+                background-color: black;
+                color: white;
+                display: none;
+            }
+            .s4{
+                /* border: 1px solid; */
+                width: 70%;
+                height: 50px;
+                text-align: center;
+                padding-top: 20px;
+                padding-left: 30%;
+                
+
+                ul{
+                    li{
+                        list-style: none;
+                        a{
+                            text-decoration: none;
+                            color: gray;
+                            margin-left: 50px;
+                        }
+                    }
+                }
+            }
+            .S5{
+                /* border: 1px solid; */
+                width: 30%;
+                height: 50px;
+                text-align: center;
+                padding-top: 20px;
+            }
+
+          
+        }
+
+        main{
+            /* border: 1px solid; */
+            width: 100%;
+            height: 300px;
+            display: flex;
+            background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(blue, orange);
+
+            .s6{
+                /* border: 1px solid; */
+                width: 50%;
+                height: 300px;
+             
+                img{
+                    width: 50%;
+                    height: 250px;
+                    margin-left: 30%;
+                    
+                }
+
+                img:hover{
+                    animation-name: wobble;
+                    animation-duration: 2s;
+                }
+              
+            }
+            .s7{
+                /* border: 1px solid; */
+                width: 50%;
+                height: 300px;
+                text-align: center;
+                padding-top: 30px;
+              
+                  /* background-image: linear-gradient(blue, orange);
+               */
+                h1{
+                   font-size:40px ;
+                   color: white;
+                }
+
+                p{
+                    margin-top: 20px;
+                    color: rgb(45, 44, 44);
+                }
+                button{
+                    width: 20%;
+                    margin-top: 30px;
+                    border-radius: 20px;
+                    border-color: blue;
+                    height: 40px;
+                     background-color: rgb(56, 56, 56);
+                     color: white;
+                    
+                }
+            }
+        }
+        .product{
+            /* border: 1px solid; */
+            width: 100%;
+            height: 600px;
+            h1{
+                text-align: center;
+                margin-top: 60px;
+                font-size: 40px;
+            }
+            p{
+                text-align: center;
+                margin-top: 20px;
+            }
+            .s8{
+                width: 100%;
+                /* border: 1px solid; */
+                height: 300px;
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+
+               
+
+                .s88{
+                    /* border: 1px solid; */
+                    width: 20%;
+                    height: 300px;
+                    text-align: center;
+                   
+                    img{
+                        width: 100%;
+                        height: 150px;
+                      
+                    }
+                 p{
+                    margin-top: 10px;
+                 }
+                 h3{
+                    color: blue;
+                 }
+                }
+            }
+
+            p{
+                font-size: larger;
+               color: rgb(132, 128, 128);
+            }
+        }
+        footer{
+            /* border: 1px solid; */
+            width: 100%;
+            height: 50px;
+            display: flex;
+            text-align: center;
+            background-color: black;
+            color: white;
+
+            .f1{
+                /* border: 1px solid; */
+                width: 30%;
+                height: 50px;
+                   padding-top: 20px;
+                      background-color: black;
+            color: white;
+            }
+
+            .f2{
+                         /* border: 1px solid; */
+                width: 40%;
+                height: 50px; 
+                padding-top: 20px;
+                   background-color: black;
+            color: white;
+                
+                i{
+                    margin-left: 20px;
+                }
+             
+            }
+        
+           .f3{
+                         /* border: 1px solid; */
+                width: 30%;
+                height: 50px;   
+                   padding-top: 20px;
+                      background-color: black;
+            color: white;
+            }
+        }
+          @media only screen and (max-width:1320px){
+            header{
+               .S5{
+                i{
+                    display: none;
+                }
+               }
+                .s4{
+                    width: 100%;
+                    padding-left: 40px;
+                }
+            }
+          }
+            @media only screen and (max-width:1080px){
+
+            header{
+                nav{
+                    display: none;
+                }
+                .s1{
+                    display: none;
+                }
+                .s2{
+                    display: none;
+                }
+                .s3{
+                    display: block;
+                    padding-top: 20px;
+                    padding-left: 20px;
+                }
+
+                .logo{
+                    width: 90%;
+
+                }
+            }
+           } 
+             @media only screen and (max-width:640px){
+                main{
+                    .s7{
+
+                        h1{
+                            font-size: 20px;
+                        }
+                        button{
+                            width: 42%;
+                            height: 40px;
+                        }
+                    }
+                }
+             }
+               @media only screen and (max-width:580px){
+
+                header{
+                    .logo{
+                        height: 100px;
+                        padding-top: 20px;
+                        font-size: 30px;
+                    }
+                    .s3{
+                        height: 100px;
+                          padding-top: 40px;
+                    }
+                  .S5{
+                    display: none;
+                  }
+                  .s4{
+                 display: none;
+                   
+                  }
+                }
+                main{
+                    display: inline-block;
+
+                   
+                    
+                    
+
+                    .s6{
+                        width: 100%;
+                        background-color: orange;
+                        height: 250px;
+                        img{
+                            width: 50%;
+                        }
+                        
+                    }
+                    .s7{
+                        
+                        width: 100%;
+                        background-color: blue;
+                        h1{
+                            font-size: 40px;
+                        }
+                        p{
+                            font-size: large;
+                        }
+                    }
+                }
+                .product{
+                  padding-top: 40px;
+
+                   
+
+                    .s8{
+
+                        margin-top: 30px;
+                         display: inline-block;
+                        .s88{
+                            width: 100%;
+                            height: 200px;
+                            img{
+                                height: 100px;
+                                width: 50%;
+                            }
+                        }
+                    }
+                }
+
+                footer{
+                   
+                    margin-top: 50%;
+                    display: inline-block;
+                    .f1{
+                        width: 100%;
+                    }
+                      .f2{
+                        width: 100%;
+                    }
+                      .f3{
+                        width: 100%;
+                    }
+
+                }
+
+                    
+                
+               }
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>mojo</h1></div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Articles</a>
+                    <a href="#">Shoes</a>
+                    <a href="#">Magazine</a>
+                    <a href="#">Help</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="s1">
+            <pre><p>john Doe     cart(1)</p></pre>
+        </div>
+
+        <div class="s2">
+                <ul>
+                    <li>
+                        <a href="#">Men</a>
+                        <a href="#">Women</a>
+                    </li>
+                </ul>
+
+        </div>
+
+        <div class="s3"><i class="fa fa-bars" aria-hidden="true"></i></div>
+
+        <div class="s4">
+                <ul>
+                    <li>
+                        <a href="#">POPULAR</a>
+                        <a href="#">MOST VIWED</a>
+                        <a href="#">NEWEST</a>
+                        <a href="#">RANDOM</a>
+                    </li>
+                </ul>
+
+        </div>
+        <div class="S5">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+</header>
+
+<main>
+    <div class="s6">
+        <img src="Daco_4111795.png" alt="" >
+
+    </div>
+
+    <div class="s7">
+        <h1>Hiroshi  Fijiwara's <br> x Nike</h1>
+        <p>Following inatial image last  week ,we bring</p>
+        <p>you Hirashi Fijiwara's Collobration  with Nike. </p>
+
+        <button>WATCH THE VIDEO</button>
+    </div>
+</main>
+
+<section class="product">
+    <h1>Other Great Shoes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Quibusdam doloremque, </p>
+
+    <div class="s8">
+
+        <div class="s88">
+            <img src="https://t3.ftcdn.net/jpg/06/10/27/02/360_F_610270204_4caPs2ahuPak18PVqDgXU38eb4Wz8Nnu.jpg" alt="">
+            <h2>Nike Roshe Gold</h2>
+            <p>24 left'in stock</p>
+            <h3>$ 120</h3>
+
+        </div>
+             <div class="s88">
+            <img src="https://t3.ftcdn.net/jpg/06/10/27/02/360_F_610270204_4caPs2ahuPak18PVqDgXU38eb4Wz8Nnu.jpg" alt="">
+            <h2>Nike jordan</h2>
+            <p>21 left'in stock</p>
+            <h3>$ 170</h3>
+
+        </div>
+             <div class="s88">
+            <img src="https://t3.ftcdn.net/jpg/06/10/27/02/360_F_610270204_4caPs2ahuPak18PVqDgXU38eb4Wz8Nnu.jpg" alt="">
+            <h2>Nike classic </h2>
+            <p>7 left'in stock</p>
+            <h3>$ 190</h3>
+
+        </div>
+
+       
+
+        
+    </div>
+     <p>want to change your prefence ?</p>
+</section>
+<footer>
+    <div class="f1">comfort to your feet</div>
+    <div class="f2"><i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+<i class="fa fa-whatsapp" aria-hidden="true"></i>
+<i class="fa fa-instagram" aria-hidden="true"></i>
+
+</div>
+<div class="f3">
+    <p>Help comfort services</p>
+</div>
+</footer>
+</body>
+</html>
